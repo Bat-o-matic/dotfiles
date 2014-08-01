@@ -1,0 +1,24 @@
+{
+	"installed_packages":
+	[
+		"Creole",
+		"Cucumber",
+		"Drupal",
+		"EasyDiff",
+		"Gherkin (Cucumber) Formatter",
+		"Git",
+		"GitGutter",
+		"jQuery",
+		"JSHint Gutter",
+		"Nodejs",
+		"PHP Companion",
+		"php_syntax_checker",
+		"Phpcs",
+		"PhpDoc",
+		"SublimeLinter-php"
+	],
+	"repositories":
+	[
+		"https://github.com/naomichi-y/php_syntax_checker"
+	]
+}

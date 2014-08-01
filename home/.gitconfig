@@ -1,0 +1,19 @@
+[user]
+	name = Sam Metson
+	email = sam.metson@gmail.com
+[color]
+	ui = true
+[alias]
+	st = status
+	cm = commit --verbose
+	pl = pull
+	ps = push
+	ch = checkout
+	df = diff
+	chp = cherry-pick
+	dstat = diff --stat
+	dfs = diff --staged
+	sts = stash save
+	stl = stash list
+	stp = stash pop
+	adp = add -p
