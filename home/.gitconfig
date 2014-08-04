@@ -17,3 +17,5 @@
 	stl = stash list
 	stp = stash pop
 	adp = add -p
+[core]
+	editor = vim
