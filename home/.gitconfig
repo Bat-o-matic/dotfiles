@@ -19,3 +19,5 @@
 	adp = add -p
 [core]
 	editor = vim
+[push]
+	default = simple
