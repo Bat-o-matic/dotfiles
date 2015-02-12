@@ -8,14 +8,24 @@
 		"Gherkin (Cucumber) Formatter",
 		"Git",
 		"GitGutter",
+		"Handlebars",
 		"jQuery",
 		"JSHint Gutter",
+		"Markdown Extended",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"Monokai Extended",
 		"Nodejs",
+		"Package Control",
 		"PHP Companion",
 		"php_syntax_checker",
 		"Phpcs",
 		"PhpDoc",
-		"SublimeLinter-php"
+		"SFTP",
+		"SublimeLinter",
+		"SublimeLinter-php",
+		"Theme - Glacier",
+		"Theme - Soda"
 	],
 	"repositories":
 	[

@@ -1,11 +1,13 @@
 {
 	"always_show_minimap_viewport": false,
-	"color_scheme": "Packages/Color Scheme - Default/Blackboard.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/glacier (SL).tmTheme",
 	"draw_minimap_border": false,
 	"ensure_newline_at_eof_on_save": true,
 	"font_size": 9,
 	"ignored_packages":
 	[
+		"Markdown",
+		"Phpcs",
 		"Nodejs"
 	],
 	"tab_size": 2,

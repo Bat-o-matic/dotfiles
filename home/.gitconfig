@@ -3,8 +3,10 @@
 	email = sam.metson@gmail.com
 [color]
 	ui = true
+	diff = auto
+	status = auto
 [alias]
-	st = status
+	st = status -sb
 	cm = commit --verbose
 	pl = pull
 	ps = push
@@ -17,7 +19,12 @@
 	stl = stash list
 	stp = stash pop
 	adp = add -p
+	lg = log --decorate --stat --graph --pretty=format:'%C(yellow)%h%Creset (%ar - %Cred%an%Creset), %s%n'
 [core]
 	editor = vim
 [push]
 	default = simple
+[merge]
+	renamelimit = 1500
+[status]
+  relativePaths = false
