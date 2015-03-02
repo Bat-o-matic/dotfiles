@@ -18,8 +18,10 @@
 	sts = stash save
 	stl = stash list
 	stp = stash pop
+	statch = stash --patch
 	adp = add -p
 	lg = log --decorate --stat --graph --pretty=format:'%C(yellow)%h%Creset (%ar - %Cred%an%Creset), %s%n'
+	prune-all = !git remote | xargs -n 1 git remote prune
 [core]
 	editor = vim
 [push]
