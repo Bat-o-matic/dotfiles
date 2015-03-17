@@ -24,6 +24,7 @@
 		"SFTP",
 		"SublimeLinter",
 		"SublimeLinter-php",
+		"SublimeLinter-shellcheck",
 		"Theme - Glacier",
 		"Theme - Soda"
 	],

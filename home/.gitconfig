@@ -22,6 +22,7 @@
 	adp = add -p
 	lg = log --decorate --stat --graph --pretty=format:'%C(yellow)%h%Creset (%ar - %Cred%an%Creset), %s%n'
 	prune-all = !git remote | xargs -n 1 git remote prune
+	conflicts = !git diff --name-only --diff-filter=U | xargs git status
 [core]
 	editor = vim
 [push]
