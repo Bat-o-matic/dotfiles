@@ -18,11 +18,19 @@
 	sts = stash save
 	stl = stash list
 	stp = stash pop
+	stsh = !sh -c 'git show stash@{$1}' -
 	statch = stash --patch
 	adp = add -p
 	lg = log --decorate --stat --graph --pretty=format:'%C(yellow)%h%Creset (%ar - %Cred%an%Creset), %s%n'
 	prune-all = !git remote | xargs -n 1 git remote prune
 	conflicts = !git diff --name-only --diff-filter=U | xargs git status
+	msq = merge --squash
+	rvt = revert
+	rss = reset --soft
+	rsm = reset --mixed
+	rsh = reset --hard
+	rsh1 = reset --hard HEAD~1
+	rebae = rebase # lols
 [core]
 	editor = vim
 [push]
@@ -30,4 +38,4 @@
 [merge]
 	renamelimit = 1500
 [status]
-  relativePaths = false
+	relativePaths = false
