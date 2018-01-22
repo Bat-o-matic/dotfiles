@@ -24,13 +24,16 @@
 	lg = log --decorate --stat --graph --pretty=format:'%C(yellow)%h%Creset (%ar - %Cred%an%Creset), %s%n'
 	prune-all = !git remote | xargs -n 1 git remote prune
 	conflicts = !git diff --name-only --diff-filter=U | xargs git status
+	pushup = !git push --set-upstream origin `git symbolic-ref --short HEAD`
+	mgo = !git merge origin/`git symbolic-ref --short HEAD`
 	msq = merge --squash
 	rvt = revert
 	rss = reset --soft
 	rsm = reset --mixed
 	rsh = reset --hard
+	rshh = !sh -c 'git reset --hard HEAD~$1' -
 	rsh1 = reset --hard HEAD~1
-	rebae = rebase # lols
+	rebae = rebase # ha
 [core]
 	editor = vim
 [push]
