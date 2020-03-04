@@ -9,6 +9,7 @@
 	st = status -sb
 	cm = commit --verbose
 	pl = pull
+	plr = pull --rebase
 	ps = push
 	ch = checkout
 	df = diff
@@ -35,10 +36,16 @@
 	rsh1 = reset --hard HEAD~1
 	rebae = rebase # ha
 [core]
-	editor = vim
+	editor = code --wait
+	excludesfile = C:\\Users\\samm\\Documents\\gitignore_global.txt
+	longpaths = true
 [push]
 	default = simple
 [merge]
 	renamelimit = 1500
 [status]
 	relativePaths = false
+[diff]
+    tool = code
+[difftool "code"]
+    cmd = code --wait --diff $LOCAL $REMOTE
